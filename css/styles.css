@@ -1,0 +1,95 @@
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../web-fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../web-fonts/Roboto-Italic-webfont.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../web-fonts/Roboto-Bold-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../web-fonts/Roboto-BoldItalic-webfont.woff") format("woff");
+  font-style: italic;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: gold;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+a {
+  font-family: "Goudy Old Style", serif;
+}
+
+h1 {
+  font-size: 2em;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+
+.page-container {
+  text-align: center;
+  margin: 3px 15% 3px 15%;
+}
+
+#paragraphs {
+  margin: 25px 0 25px 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.jargons {
+  font-style: italic;
+}
+
+p {
+  text-align: left;
+  padding: 0 15% 0 15%;
+}
+
+a {
+  color: #839e37;
+
+  font-style: italic;
+  text-decoration: none;
+
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: gold;
+}
