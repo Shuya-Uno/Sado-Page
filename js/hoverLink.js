@@ -6,8 +6,8 @@
    a substitute for putting image inside the <a> element
 */
 
-var trigger = document.getElementsByClassName('hover')[0];
-var change = document.querySelector('a');
+const trigger = document.getElementsByClassName('hover')[0];
+const change = document.querySelector('a');
 // cache DOM queries
 
 function lightOn() {
