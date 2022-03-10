@@ -33,9 +33,17 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-color: black;
+  --sub-color: gold;
+  --accent-color: #839e37;
+}
+/* define colors with custom properties*/
+
 body {
-  background-color: black;
-  color: gold;
+  background-color: var(--main-color);
+  color: var(--sub-color);
+  /* access custom properties with var() */
 
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -82,7 +90,7 @@ p {
 }
 
 a {
-  color: #839e37;
+  color: var(--accent-color);
 
   font-style: italic;
   text-decoration: none;
@@ -91,5 +99,5 @@ a {
 }
 
 a:hover {
-  color: gold;
+  color: var(--sub-color);
 }
